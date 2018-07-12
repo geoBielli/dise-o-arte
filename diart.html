@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diseño-Arte</title>
+	<meta charset="utf 8">
+	<link rel="stylesheet" href="css/diart.css">
+</head>
+<body>
+	<header id="cabeza" class="cabecera altura-margen"> 
+		<figure class="logotipo">
+			<img src="imagenes/logotipo.png" width="99" height="111" alt="Diseño-Arte Logotipo" /><!-- logotipo -->
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="diart.html">Home</a>
+				</li>
+				<li>
+					<a href="#somos">¿Quiénes somos?</a>
+				</li>
+				<li>
+					<a href="presentacion.html">Mas información</a>
+				</li>
+			</ul><!-- menu -->
+		</nav>
+	</header>
+	<section id="portada" class="portada"> <!-- portada -->
+		<div class="altura-margen">
+			<h1 class="titulo">Diseño y Arte - Desarrollo de páginas webs<h1><!-- titulo -->
+			<h3 class="subtitulo">Dale vida a tu emprendimiento en el mundo de internet</h3><!-- resumen -->
+			<button>Conoce más</button><!-- boton -->
+		</div>
+		
+	</section>
+	<section id="somos" class="que-hacemos altura-margen"> <!-- que hacemos --><!-- propaganda -->
+		<h2> Animate a soñar en grande </h2>
+			<article class="articulos">
+				<img class="derecha" src="imagenes/roo.png" width="400" height="400" alt="geo"  />
+				<div class="contenedor-articulo-1">
+					<h3 class="titulo-1">Contamos con:</h3>
+					<ol>
+					<li>Hermosos diseños.</li>
+					<li>Prefeionalismo.</li>
+					<li>Ganas de crecer haciendote crecer.</li>
+					</ol>
+				</div>
+			
+			</article>
+			<article class="articulos">
+				<img class="izquierda" src="imagenes/geo2.png" width="250" height="400" alt="roo"  />
+				<div class="contenedor-articulo-2">
+					<h3 class="titulo-1">Miramos hacia el futuro</h3>
+					<ol>
+					<li>Soñamos</li>
+					<li>Aprendemos</li>
+					<li>Creemos en tu producto, creemos en vos</li>
+					</ol>
+				</div>
+				
+			</article>
+			<article></article>
+	</section>
+	<footer class="pie">
+		<div class="altura-margen">
+		<div class="mail"><!-- Dato de contacto -->
+			<img src="imagenes/logo2.png" alt="Diseño-Arte Logotipo">
+			<a href="mailto:georginsb@gmail.com"><strong>E-mail</strong><span>georginsb@gmail.com</span></a>
+		</div>
+		<form class="formulaio">
+			<div class="col1">
+				<label for="nombre">Nombre
+					<input type="text" required id="nombre" name="nombre" />
+				</label>
+				<label for="email">E-mai
+					<input type="email" required id="email" name="email" />
+				</label>
+			</div>
+			<div class="col2">
+				<div class="motivo">
+					<label for="desarrollo">
+						<input type="checkbox" id="desarrollo" name="motivo" value="desarrollo">Desarrollo Web
+					</label>
+					<label for="ilustraciones">
+						<input type="checkbox" id="ilustraciones" name="motivo" value="ilustraciones">Ilustraciones
+					</label>
+					<label for="fotografias">
+						<input type="checkbox" id="fotografias" name="motivo" value="fotografias">Fotografías
+					</label>
+					<label for="otro">
+						<input type="checkbox" id="otro" name="motivo">Otro
+					</label>
+				</div>
+			</div>	
+			<div>
+				<label for="comentarios">¡No dudes en enviarnos tu consulta!❤</label>
+				<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+				<input type="submit" value="Enviar"/>
+			</div>
+		</form>
+		</div>
+
+	</footer>
+</body>
+</html>
