@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	background: #f6f5f7;
+}
+button {
+	border-radius: 8px 8px 8px 8px;
+	border:none;
+}
+
+.portada{
+	background-image: url("../imagenes/cabecera.jpg");
+	color: #28335d;
+	height: 400px;
+	padding: 20px;
+	text-align: right;
+	border-bottom: violet 8px groove;
+	}
+.portada button{
+	margin-bottom: 70px;
+}
+.titulo{
+	font-size: 35px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+.titulo-1{
+	margin-bottom: 20px; 
+}
+.subtitulo{
+	font-size: 25px;
+	margin-top: 0;
+} 
+.logotipo{
+	display: inline-block;
+}
+.menu{
+	font-size: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.altura-margen{
+	width: 900px;
+	margin: auto;
+}
+
+.articulos{
+	margin: 10px;
+	padding: 10px;
+	border: violet 8px groove;
+	color: #0C0003;
+	font-size: 25px;
+	position: relative;
+	background: white;
+	border-radius: 10px 10px 10px 10px;
+}
+.derecha{
+	float: right;
+	position: absolute;
+	left: 500px;
+    bottom: 0;
+}
+.izquierda{
+	float: left;
+	position: absolute;
+	top: -15px;
+}
+.contenedor-articulo-1{
+	padding-left: 20px;
+}
+.contenedor-articulo-2{
+	margin-left: 370px;
+}
+.articulos ol{
+	padding: 0;
+}
+.cabecera{
+	position: relative;
+	background: #460000ab;
+}
+.pie{
+	background: #460000ab;
+}
+.mail {
+	display: block;
+	width: 100px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.mail img{
+	display: block;
+	margin: 20px 10px 10px 0;
+}
+.mail strong{
+	display: block;
+}
+.mail a{
+	color:white;
+	text-decoration: none;
+	margin: 40px 10px 10px 0;
+    position: absolute;
+}
+.pie .altura-margen{
+	display: flex;
+	justify-content: space-between;
+}
+.formulaio{
+	display: flex;
+	width: 400px;
+	color: white;
+	padding: 50px 10px;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	margin-right: 15px;
+}
+.motivo label{
+	font-size: 12px;
+}
+.formulaio label, .motivo {
+	margin-bottom: 15px; 
+}
